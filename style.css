@@ -48,7 +48,7 @@ header li {
     list-style-type: none;
     margin-top: 25px;
     font-size: 1.3rem;
-    line-height: 45px;
+    line-height: 2.25rem;
     font-family: 'Cormorant Garamond', serif;
     text-transform: uppercase;
 }
@@ -64,11 +64,11 @@ nav a {
 h1 {
     font-family: 'Fredericka the Great', cursive;
     text-transform: uppercase;
-    font-size: 120px;
+    font-size: 6rem;
     text-align: right;
     width: 100%;
     font-weight: 400;
-    line-height: 117px;
+    line-height: 5.85rem;
     padding-top: 125px;
 }
 header span {
@@ -80,9 +80,9 @@ nav ul {
 }
 button {
     font-family: 'Cormorant Garamond', serif;
-    line-height: 29px;
+    line-height: 1.45rem;
     text-align: center;
-    font-size: 18px;
+    font-size: 0.9rem;
     font-weight: 600;
     text-transform: uppercase;
 }
@@ -98,7 +98,7 @@ aside {
 
 /* FIRST MAIN SECTION */
 .suzie {
-    background: #1b2c20;
+    background: #152D20;
     padding: 50px 0;
 }
 .suzie .wrapper {
@@ -127,7 +127,7 @@ aside {
 .suzie h2 {
     font-family: 'Fredericka the Great', cursive;
     text-transform: uppercase;
-    font-size: 51px;
+    font-size: 2.55rem;
     font-weight: 400;
 }
 p {
@@ -135,14 +135,14 @@ p {
 }
 .textContainer p {
     padding: 25px 0px;
-    line-height: 29px;
-    font-size: 20px;
+    line-height: 1.45rem;
+    font-size: 1rem;
 }
 
 /* SOME FRIENDS SECTION */
 .friends {
     height: 100vh;
-    background-color: #c6d3cb;
+    background-color: #c3d3cb;
 }
 .friends ul {
     list-style-type: none;
@@ -151,10 +151,10 @@ p {
     display: flex;
 }
 .friends h2 {
-    color: #1b2c20;
+    color: #152D20;
     text-align: center;
     padding: 100px 0;
-    font-size: 49px;
+    font-size: 2.45rem;
     font-family: 'Fredericka the Great', cursive;
     text-transform: uppercase;
     
@@ -172,7 +172,7 @@ p {
 
 /* ICON SECTION */
 .icons {
-    background-color:#1b2c20;
+    background-color:#152D20;
     height: 38vh;
 }
 .icons .wrapper {
@@ -204,8 +204,8 @@ p {
 /* Meet The Zebras Section */
 .zebra h2,
 .bond h2 {
-    color:#1b2c20;
-    font-size: 35px;
+    color:#152D20;
+    font-size: 1.75rem;
     font-family: 'Fredericka the Great', cursive;
     text-transform: uppercase;
     font-weight: 400;
@@ -255,14 +255,14 @@ p {
     height: 43vh;
 }
 .contact h3 {
-    font-size: 35px;
+    font-size: 1.75rem;
     font-weight: 550;
     font-family: 'Cormorant Garamond', serif;
     margin-bottom: 15px;
 }
 .contact li {
     font-family: 'Cormorant Garamond', serif;
-    font-size: 22px;
+    font-size: 1.1rem;
     font-weight: 550;
 }
 .contact .wrapper {
@@ -273,7 +273,7 @@ p {
 }
 .section2 legend {
     font-family: 'Cormorant Garamond', serif;
-    font-size: 22px;
+    font-size: 1.1rem;
     font-weight: 550;
     text-align: center;
 }
@@ -304,12 +304,6 @@ input {
     height: 60px;
     width: 500px;
     padding-left: 25px;
-}
-.wrapper .section1 {
-    flex-shrink: 1;
-}
-.wrapper .section2 {
-    flex-grow: 4;
 }
 .section1 li,
 .section3 li {
@@ -345,9 +339,6 @@ footer a {
     .wrapper {
         width: 90%;
     }
-    html {
-        font-size: max(16px, 2vw);
-    }
     .home .wrapper {
         display: flex;
         flex-direction: row-reverse;
@@ -361,8 +352,8 @@ footer a {
     }
     h1 {
         padding-top: 15px;
-        font-size: 40px;
-        line-height: 40px;
+        font-size: 2rem;
+        line-height: 2rem;
         text-align: left;
     }
     h1 img {
